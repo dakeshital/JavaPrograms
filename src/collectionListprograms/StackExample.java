@@ -1,4 +1,4 @@
-package collectionprograms;
+package collectionListprograms;
 
 import java.util.Enumeration;
 import java.util.Scanner;
