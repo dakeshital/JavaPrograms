@@ -34,7 +34,6 @@ public class FindFrequencyOfEachObject {
 				System.out.println("Duplicate element: " + element + ", frequency: " + frequency);
 			}
 		}
-		
 		System.out.println("Duplicate list: " + duplicates);
 		System.out.println("New list: " + newList);
 
