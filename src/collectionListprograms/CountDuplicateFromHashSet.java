@@ -8,7 +8,11 @@ public class CountDuplicateFromHashSet {
 	public static void main(String[] args) {
 
 		int[] nums = { 1, 7, 2, 5, 7, 3, 3 };
-		System.out.println("Original array: " + nums);
+		System.out.print("Original array: ");
+		for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i] + " ");
+		}
+		System.out.println("\n");
 
 		HashSet<Integer> set = new HashSet<>();
 		ArrayList<Integer> newList = new ArrayList<Integer>();
@@ -27,8 +31,10 @@ public class CountDuplicateFromHashSet {
 				System.out.println("duplicates number is: " + num + " & count is: " + count);
 			}
 		}
-		System.out.println("Duplicate Elements: "+newList);
-		System.out.println("Sorted HashSet Elements "+set);
+		System.out.println("\nDuplicate Elements: " + newList);
+		System.out.println("Sorted HashSet Elements " + set);
+
 
 	}
+
 }

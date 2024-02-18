@@ -3,6 +3,7 @@ package collectionListprograms;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class ConversionOfArrayToArrayList {
 
@@ -24,6 +25,10 @@ public class ConversionOfArrayToArrayList {
 		for (Object s : array) {
 			System.out.println(s);
 		}
+
+		List<String> al = new ArrayList<>();
+		Collections.addAll(al, names);
+		System.out.println("Converted Arraylist: " + al);
 
 	}
 
