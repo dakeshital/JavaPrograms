@@ -22,6 +22,18 @@ public class ConversionOfArrayListToArray {
 		for (Object s : array) {
 			System.out.println(s);
 		}
+
+		//////////
+		System.out.println("\n");
+		String[] str = new String[al.size()];
+		for (int i = 0; i < al.size(); i++) {
+			str[i] = al.get(i);
+		}
+
+		// Print elements using for-each loop
+		for (String s : str) {
+			System.out.println(s);
+		}
 	}
 
 }

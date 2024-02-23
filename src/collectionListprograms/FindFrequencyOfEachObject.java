@@ -30,13 +30,13 @@ public class FindFrequencyOfEachObject {
 				newList.add(element);
 			}
 			if (count > 1) {
-				int frequency = Collections.frequency(list, element);
-				System.out.println("Duplicate element: " + element + ", frequency: " + frequency);
+//				int frequency = Collections.frequency(list, element);
+//				System.out.println("Duplicate element: " + element + ", frequency: " + frequency);
+				System.out.println("Duplicate element: " + element + ", count: " + count);
 			}
 		}
 		System.out.println("Duplicate list: " + duplicates);
 		System.out.println("New list: " + newList);
-
 
 	}
 }
